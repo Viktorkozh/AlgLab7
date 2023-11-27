@@ -1,8 +1,10 @@
+#!/usr/bin/env python3 
+#coding: utf-8 -*-
+
 import matplotlib.pyplot as plt
 from heapq import heappush, heappop
 import networkx as nx
 from networkx.drawing.nx_pydot import graphviz_layout
-import random as rn
 
 
 def proc_huffman(f):
